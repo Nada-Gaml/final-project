@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-web-image
+
+spec:
+  containers:
+    - name: my-nginx-app
+      image: nada122/nginx-image
+      imagePullPolicy: IfNotPresent
+      
+      
+
